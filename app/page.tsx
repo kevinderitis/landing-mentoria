@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { CheckCircle, Code, Database, Globe, Laptop, MessageCircle, Rocket, Zap, Calendar, Clock, Briefcase, MapPin, Star, User, Linkedin } from "lucide-react"
+import { Code, Laptop, Rocket, Zap, Calendar, Clock, MapPin, User, Linkedin } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -79,7 +79,7 @@ export default function LandingPage() {
                   <li>Mentor en Alkemy, acelerando el crecimiento de desarrolladores junior.</li>
                   <li>Especialista en integración de IA en proyectos web y backend.</li>
                 </ul>
-                <p className="text-[#ffd700] mt-4 italic">"Mi objetivo es brindarte las herramientas y conocimientos necesarios para que te conviertas en un desarrollador altamente competitivo en el mercado."</p>
+                <p className="text-[#ffd700] mt-4 italic">Mi objetivo es brindarte las herramientas y conocimientos necesarios para que te conviertas en un desarrollador altamente competitivo en el mercado.</p>
                 <div className="mt-4">
                   <Button asChild>
                     <Link href="https://www.linkedin.com/in/kevinderitis" target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-[#0077b5] hover:bg-[#006699] text-white font-bold py-2 px-4 rounded">
@@ -154,7 +154,7 @@ export default function LandingPage() {
             ].map((testimonial, index) => (
               <Card key={index} className="bg-[#1e2a4a] border-none">
                 <CardContent className="p-6">
-                  <p className="text-gray-300 mb-4 italic">"{testimonial.quote}"</p>
+                  <p className="text-gray-300 mb-4 italic">{testimonial.quote}</p>
                   <p className="text-[#ffd700] font-bold">— {testimonial.author}</p>
                 </CardContent>
               </Card>
