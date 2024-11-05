@@ -64,7 +64,7 @@ export default function LandingPage() {
             <CardContent className="p-6 flex flex-col md:flex-row items-center">
               <div className="w-48 h-48 rounded-full overflow-hidden mb-6 md:mb-0 md:mr-6">
                 <Image
-                  src="/ia-img.jpg?height=192&width=192"
+                  src="/profile.jpeg?height=192&width=192"
                   alt="Kevin de Ritis"
                   width={192}
                   height={192}
@@ -72,8 +72,9 @@ export default function LandingPage() {
                 />
               </div>
               <div>
-                <p className="text-gray-300 mb-4">Kevin de Ritis es un experto en desarrollo web con amplia experiencia en la formación de nuevos talentos en Latinoamérica. Su trayectoria incluye:</p>
+                <p className="text-gray-300 mb-4">Kevin de Ritis es un experto en desarrollo de software con amplia experiencia en la formación de nuevos talentos en Latinoamérica. Su trayectoria incluye:</p>
                 <ul className="list-disc list-inside space-y-2 text-gray-300">
+                  <li>Más de 10 años de experiencia en desarrollo backend, trabajando con diversas arquitecturas y lenguajes de programación.</li>
                   <li>Profesor en Coderhouse, una de las plataformas educativas más reconocidas de la región.</li>
                   <li>Mentor en Alkemy, acelerando el crecimiento de desarrolladores junior.</li>
                   <li>Especialista en integración de IA en proyectos web y backend.</li>
